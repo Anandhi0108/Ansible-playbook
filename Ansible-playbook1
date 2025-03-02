@@ -1,6 +1,6 @@
 ---
 - name: Install Maven on Ubuntu
-  hosts: 54.234.157.230
+  hosts: all
   become: true  # Use sudo to execute commands as root
   tasks:
     - name: Update apt package list
